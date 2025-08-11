@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentación Técnica - HTML y CSS</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Guía Técnica HTML & CSS</header>
+    <a class="nav-link" href="#Introduccion">Introduccion</a>
+    <a class="nav-link" href="#Sintaxis_Basica">Sintaxis Basica</a>
+    <a class="nav-link" href="#Selectores_CSS">Selectores CSS</a>
+    <a class="nav-link" href="#Responsive_y_buenas_practicas">Responsive y buenas practicas</a>
+    <a class="nav-link" href="#Conclusiones">Conclusiones</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduccion">
+      <header>Introduccion</header>
+      <p>HTML y CSS son los lenguajes fundamentales para la construcción de páginas web.</p>
+      <p>HTML estructura el contenido, mientras que CSS se encarga de su presentación.</p>
+      <p>Dominar ambos lenguajes es esencial para cualquier desarrollador web.</p>
+      <p>Esta guía ofrece una visión general rápida para comenzar.</p>
+      <p>Aprenderás desde la estructura básica hasta conceptos de diseño responsive.</p>
+      <pre><code>&lt;html&gt;&lt;/html&gt;</code></pre>
+      <pre><code>&lt;head&gt;&lt;/head&gt;</code></pre>
+    </section>
+
+    <section class="main-section" id="Sintaxis_Basica">
+      <header>Sintaxis Basica</header>
+      <p>HTML utiliza etiquetas para definir elementos.</p>
+      <p>CSS aplica estilos a los elementos HTML mediante reglas.</p>
+      <p>Cada regla CSS tiene un selector y un bloque de declaraciones.</p>
+      <p>Las declaraciones incluyen una propiedad y un valor.</p>
+      <p>Veamos un ejemplo de código CSS básico:</p>
+      <pre><code>p { color: blue; }</code></pre>
+      <ul>
+        <li>Etiquetas HTML van entre corchetes angulares</li>
+        <li>Las reglas CSS terminan con punto y coma</li>
+        <li>Los selectores indican a qué elemento aplicar el estilo</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Selectores_CSS">
+      <header>Selectores CSS</header>
+      <p>Los selectores determinan qué elementos se ven afectados por los estilos.</p>
+      <p>Existen varios tipos de selectores en CSS.</p>
+      <p>El selector universal aplica estilos a todos los elementos.</p>
+      <p>Los selectores de clase utilizan un punto antes del nombre.</p>
+      <p>Los selectores de id usan el símbolo "#".</p>
+      <pre><code>* { margin: 0; }</code></pre>
+      <pre><code>.titulo { font-size: 2em; }</code></pre>
+      <pre><code>#principal { background: lightgray; }</code></pre>
+      <ul>
+        <li>Selector universal: *</li>
+        <li>Selector de clase: .clase</li>
+        <li>Selector de ID: #id</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Responsive_y_buenas_practicas">
+      <header>Responsive y buenas practicas</header>
+      <p>Un diseño responsive se adapta a diferentes tamaños de pantalla.</p>
+      <p>Se logra mediante media queries y diseño fluido.</p>
+      <p>Es importante mantener el código limpio y bien indentado.</p>
+      <p>Evita usar estilos en línea siempre que sea posible.</p>
+      <p>Utiliza herramientas como validadores de HTML y CSS para mejorar tu código.</p>
+      <pre><code>@media (max-width: 768px) {
+  body {
+    background: white;
+  }
+}</code></pre>
+      <ul>
+        <li>Usa media queries para adaptar estilos</li>
+        <li>Aplica principios de diseño accesible</li>
+        <li>Organiza tu CSS en bloques lógicos</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Conclusiones">
+      <header>Conclusiones</header>
+      <p>Con HTML y CSS puedes construir sitios web efectivos y atractivos.</p>
+      <p>Dominar su uso te permite dar vida a tus ideas en la web.</p>
+      <p>Practica creando tus propios proyectos.</p>
+      <p>Explora conceptos más avanzados como Flexbox o Grid.</p>
+      <p>Continúa aprendiendo para mejorar como desarrollador web.</p>
+      <pre><code>footer {
+  text-align: center;
+}</code></pre>
+      <ul>
+        <li>HTML estructura</li>
+        <li>CSS da estilo</li>
+        <li>La práctica mejora tus habilidades</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
