@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--Titulo de la pagina-->
+    <h1 id="title">Encuesta Gamer</h1>
+    <!--Descripcion de la pagina-->
+    <p id="description">Cuéntanos sobre tus gustos y hábitos en videojuegos.</p>
+    <!--El fromulario-->
+    <form id="survey-form">
+    <!-- Campo para nombre del usuario -->
+    <label id="name-label">Nombre: 
+      <input id="name" type="text" placeholder="Introduce tu nombre" required />
+    </label>
+
+    <!-- Campo para correo electrónico -->
+    <label id="email-label">Correo electrónico: 
+      <input id="email" type="email" placeholder="Introduce tu correo" required />
+    </label>
+
+    <!-- Campo para edad -->
+    <label id="number-label">Edad: 
+      <input id="number" type="number" min="13" max="120" placeholder="¿Cuántos años tienes?" required />
+    </label>
+
+    <!-- Consola favorita -->
+    <label for="dropdown">¿Cuál es tu consola favorita?
+    <select id="dropdown">
+      <option>PlayStation</option>
+      <option>Xbox</option>
+      <option>Nintendo Switch</option>
+      <option>PC</option>
+      <option>Móvil</option>
+      <option>Otra</option>
+    </select>
+  </label>
+
+    <!-- Frecuencia de juego -->
+  <fieldset>
+    <legend>¿Con qué frecuencia juegas?</legend>
+    <label><input type="radio" name="frecuencia" value="diario" class="inline" checked> Diario</label>
+    <label><input type="radio" name="frecuencia" value="semanal" class="inline"> Varias veces por semana</label>
+    <label><input type="radio" name="frecuencia" value="ocasional" class="inline"> De vez en cuando</label>
+  </fieldset>
+
+  <!-- Género favorito -->
+  <fieldset>
+    <legend>¿Cuál es tu género de videojuego favorito?</legend>
+    <label><input type="checkbox" name="genero" value="aventura"> Aventura</label>
+    <label><input type="checkbox" name="genero" value="fps"> FPS (Disparos en primera persona)</label>
+    <label><input type="checkbox" name="genero" value="rpg"> RPG (Juegos de rol)</label>
+    <label><input type="checkbox" name="genero" value="estrategia"> Estrategia</label>
+    <label><input type="checkbox" name="genero" value="otro"> Otro</label>
+  </fieldset>
+
+  <!-- Comentario libre -->
+  <label for="bio">¿Qué juego estás jugando ahora o cuál es tu favorito?
+    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Escribe el nombre del juego aquí..."></textarea>
+  </label>
+  
+  <!--Boton para enviar-->
+    <input id="submit" type="submit" value="Enviar" />
+  </form>
+  </body>
+</html>
