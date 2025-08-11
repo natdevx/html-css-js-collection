@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: "Libre Baskerville", serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #fdf8ec;
+}
+
+#main {
+  max-width: 1200px; /* Aumentamos el ancho máximo */
+  margin: 30px auto; /* Centramos con menos espacio lateral */
+  padding: 30px;     /* Relleno interno más generoso */
+  border-radius: 5px;
+  background: #E5D894;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #642424;
+  text-align: center;
+  margin-top: 0;
+}
+
+#img-div {
+  background: #3D3D3D;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#img-caption {
+  color: #E5D894;
+  margin: 15px 0 5px 0;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+h3 {
+  margin: 50px 0 20px 0;
+  text-align: center;
+  color: #642424;
+  font-size: 1.5rem;
+}
+
+ul {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+  padding-left: 20px;
+  color: #333;
+}
+
+a#tribute-link {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #642424;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+a#tribute-link:hover {
+  color: #a33a3a;
+  text-decoration: underline;
+}
