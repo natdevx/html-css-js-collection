@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mariachis MX</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+</head>
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <div id="logo">
+        <img id="header-img" src="https://cdn.vectorstock.com/i/500p/70/57/mexican-sombrero-in-vintage-style-vector-41157057.jpg" alt="Logo de sombrero mariachi" width="150"/>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Home">Home</a></li>
+          <li><a class="nav-link" href="#Eventos">Eventos</a></li>
+          <li><a class="nav-link" href="#footer">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sección Home -->
+      <section id="Home">
+        <h1>¡Lleva el sabor de México a tu evento!</h1>
+        <p>Contrata a Mariachis MX para fiestas, bodas, serenatas y más.</p>
+        <!-- Video del producto -->
+        <div class="video-container">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/h2fT1hKpZzA"
+            title="Video del mariachi"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Sección Eventos -->
+      <section id="Eventos">
+        <h2>Nuestros servicios</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Serenatas</h3>
+            <p>Haz que tu ser querido se derrita con una serenata inolvidable.</p>
+            <p><strong>Desde $1500 MXN</strong></p>
+          </div>
+          <div class="card">
+            <h3>Bodas</h3>
+            <p>El momento perfecto merece música perfecta.</p>
+            <p><strong>Desde $5000 MXN</strong></p>
+          </div>
+          <div class="card">
+            <h3>Eventos Corporativos</h3>
+            <p>Agrega un toque mexicano a tu evento de empresa.</p>
+            <p><strong>Desde $4000 MXN</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Formulario -->
+      <section id="contratar">
+        <h2>¿Listo para reservar?</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ingresa tu correo"
+            required
+          />
+          <input type="submit" id="submit" value="Contratar Ahora" />
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>© 2025 Mariachis MX. Todos los derechos reservados.</p>
+      <p>Contáctanos: contacto@mariachismx.com | Tel: +52 55 1234 5678</p>
+    </footer>
+  </div>
+</body>
+</html>
